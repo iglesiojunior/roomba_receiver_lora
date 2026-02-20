@@ -1,0 +1,28 @@
+{
+    "names": {
+        "rmw": {
+            "cmake-args": ["-DBUILD_TESTING=OFF"]
+        },
+        "rmw_microxrcedds": {
+            "cmake-args": ["-DBUILD_TESTING=OFF"]
+        },
+        "rcutils": {
+            "cmake-args": ["-DBUILD_TESTING=OFF"]
+        },
+        "micro_ros_utilities": {
+            "cmake-args": ["-DBUILD_TESTING=OFF"]
+        },
+        "rmw_test_fixture": {
+            "cmake-args": ["-DBUILD_TESTING=OFF"]
+        },
+        "rosidl_typesupport_cpp": {
+            "cmake-args": ["-DBUILD_TESTING=OFF", "-DBUILD_SHARED_LIBS=OFF", "-DSKIP_INSTALL_ALL=ON"]
+        },
+        "rosidl_typesupport_microxrcedds_cpp": {
+            "cmake-args": ["-DBUILD_TESTING=OFF", "-DBUILD_SHARED_LIBS=OFF", "-DSKIP_INSTALL_ALL=ON"]
+        },
+        "rosidl_generator_cpp": {
+             "cmake-args": ["-DBUILD_TESTING=OFF", "-DBUILD_SHARED_LIBS=OFF", "-DSKIP_INSTALL_ALL=ON"]
+        }
+    }
+}
